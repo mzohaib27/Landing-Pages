@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import DiscoverMore from "./File2/DiscoverMore";
+import EditorsPick from "./File2/EditorsPick";
+import Footer from "./File2/Footer";
+import GuestAuthor from "./File2/GuestAuthor";
+import Header2 from "./File2/Header2";
+import HeroSection2 from "./File2/HeroSection2";
+
+import WebCards from "./Website/WebCards";
+import WebFooter from "./Website/WebFooter";
+import WebHerosection from "./Website/WebHerosection";
+import WebManage from "./Website/WebManage";
+import WebNavbar from "./Website/WebNavbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="bg-violet-900 text-white">
+        <Header2 />
+        <HeroSection2 />
+        <EditorsPick />
+        <DiscoverMore />
+        <GuestAuthor />
+        <Footer />
+      </div>
+
+      <br />
+      <br />
+      <WebNavbar />
+      <WebHerosection />
+      <WebManage />
+      <WebCards />
+      <WebFooter />
     </div>
   );
 }
