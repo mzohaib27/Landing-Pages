@@ -22,7 +22,7 @@ const Header2 = () => {
               Tailblocks
             </span>
           </a>
-          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center nav-links">
             <a class="mr-5 hover:text-gray-900 hover:py-2 hover:px-4 hover:rounded-md transition-all duration-700">
               First Link
             </a>
